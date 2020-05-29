@@ -1,0 +1,31 @@
+html{
+    font-family: Ebrima, Arial, Helvetica, sans-serif;
+    font-size: larger;
+    background-color: lightblue;
+}
+.header{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    border: solid black;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.rest{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
